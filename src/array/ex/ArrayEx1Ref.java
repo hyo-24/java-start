@@ -1,6 +1,6 @@
 package array.ex;
 
-public class ArrayEx1 {
+public class ArrayEx1Ref {
     public static void main(String[] args) {
         int[] student; // int[] = student 했었음...
         student = new int[]{90,80,70,60,50};
