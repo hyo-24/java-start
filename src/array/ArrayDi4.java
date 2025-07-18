@@ -8,7 +8,7 @@ public class ArrayDi4 {
 
         for (int row = 0; row < arr.length; row++) {
             for (int column = 0; column < arr[row].length; column++) {
-                arr[row][column] = i++; // i에 1을 더한 값을 행과 열에 저장해...?
+                arr[row][column] = i++; // 먼저 i값을 대입하고 난 후에 +1 을 한다.
             }
         }
 

@@ -7,10 +7,10 @@ public class ArrayEx1Ref {
 
         int total = 0;
         for (int i = 0; i < student.length; i++) {
-            total += student[i]; // 배열의 순서를 지정하는 수가 필요해서 i를 사용
+            total += student[i]; // 배열의 순서를 찾아갈 때 쓰이는 수, 인덱스 i를 사용
         }
 
-        double average = (double) total / student.length; // 갯수는 i가 아니고 length!! i는 for문 안에서 종료됨
+        double average = (double) total / student.length; // 행의 갯수는 i가 아니고 length!! i는 for문 안에서 종료됨
         System.out.println("점수 총합: " + total);
         System.out.println("점수 평균: "+ average);
     }
